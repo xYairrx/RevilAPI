@@ -1,6 +1,22 @@
 <h1>Resident Evil API</h1>
-The project uses Spring Boot 3.3.2
+<p>This project uses Spring Boot 3.3.2.</p>
 
-<h2>Following steps:</h2>
-To use the API, you need to create a MySQL database named <b>revil_api</b>
-Then, just run the API with the command <b>mvn spring-boot:run</b>
+<h2>Following Steps:</h2>
+<ol>
+    <li><strong>Create the Database</strong>: You need to create a MySQL database named <strong>revil_api</strong>.</li>
+    <li><strong>Configure Database Connection</strong>: Make sure to update the database connection settings in <code>src/main/resources/application.properties</code> if is necessary.</li>
+    <li><strong>Install Dependencies</strong>: Before running the API, install the required dependencies by executing:
+        <pre><code>mvn install</code></pre>
+    </li>
+    <li><strong>Run the API</strong>: To start the API, navigate to the project directory and execute the following command:
+        <pre><code>mvn spring-boot:run</code></pre>
+    </li>
+    <li><strong>Access the API</strong>: Once the application is running, you can access the API at <code>http://localhost:8080</code> in popular API's applications (like Postman or Insomnia) and
+    use the endpoints allowed in the Controller of both Entities</li>
+</ol>
+
+<h2>Additional Information:</h2>
+<ul>
+    <li>Make sure you have <strong>Maven</strong> and <strong>MySQL</strong> installed and running.</li>
+    <li>If you encounter any issues, check the console output for error messages or missing dependencies.</li>
+</ul>
