@@ -18,5 +18,6 @@
 <h2>Additional Information:</h2>
 <ul>
     <li>Make sure you have <strong>Maven</strong> and <strong>MySQL</strong> installed and running.</li>
+    <li>In <code>src/main/resources/import.sql</code> the is a query to give information to the database, so you don't need to upload information manually<li>
     <li>If you encounter any issues, check the console output for error messages or missing dependencies.</li>
 </ul>
