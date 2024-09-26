@@ -21,7 +21,7 @@ cd &lt;PROJECT_NAME&gt;</code></pre>
 </ol>
 
 <h2>Usage Examples</h2>
-<p>You can add examples of API requests here, such as:</p>
+<p>You can view examples of API requests, such as:</p>
 <pre><code>GET http://localhost:8080/api/v1/videogames</code></pre>
 <p>All the endpoints are allowed in the controllers of both entities.</p>
 
