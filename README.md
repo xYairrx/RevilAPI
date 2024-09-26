@@ -1,4 +1,5 @@
-Resident Evil API 
+<h1>Resident Evil API</h1>
 The project uses Spring Boot 3.3.2
 
-In the folder "resources" there is a query to view how the API works in Postman or Insomia.
+<h2>Following steps:</h2>
+To use the API, you need to create a MySQL database named <b>revil_api</b>
